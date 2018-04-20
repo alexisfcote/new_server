@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install aptitude
+sudo apt-get install -y aptitude
 # Install fav program
 sudo aptitude install -y vim ufw unattended-upgrades git tmux htop build-essential
 
